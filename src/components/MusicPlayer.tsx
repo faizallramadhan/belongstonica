@@ -14,7 +14,7 @@ export default function MusicPlayer({
   title = 'Ambient Music'
 }: MusicPlayerProps) {
   const audioRef = useRef<HTMLAudioElement>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   const [isMuted, setIsMuted] = useState(false);
   const [volume, setVolume] = useState(0.5);
   const [isClient, setIsClient] = useState(false);
@@ -34,7 +34,7 @@ export default function MusicPlayer({
     const audio = audioRef.current;
     const tryAutoplay = async () => {
       try {
-        // Play unmuted at moderate volume
+        // Attempt unmuted autoplay from the beginning.
         audio.muted = false;
         audio.volume = 0.5;
         setIsMuted(false);
@@ -185,6 +185,9 @@ export default function MusicPlayer({
     <>
       <audio
         ref={audioRef}
+        autoPlay
+        playsInline
+        preload="auto"
         loop
         crossOrigin="anonymous"
         onError={() => {

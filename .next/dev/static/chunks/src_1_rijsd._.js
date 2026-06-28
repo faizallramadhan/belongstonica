@@ -1312,7 +1312,7 @@ var _s = __turbopack_context__.k.signature();
 function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music' }) {
     _s();
     const audioRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const [isPlaying, setIsPlaying] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isPlaying, setIsPlaying] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
     const [isMuted, setIsMuted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [volume, setVolume] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0.5);
     const [isClient, setIsClient] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -1334,7 +1334,7 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
             const tryAutoplay = {
                 "MusicPlayer.useEffect.tryAutoplay": async ()=>{
                     try {
-                        // Play unmuted at moderate volume
+                        // Attempt unmuted autoplay from the beginning.
                         audio.muted = false;
                         audio.volume = 0.5;
                         setIsMuted(false);
@@ -1498,6 +1498,9 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("audio", {
                 ref: audioRef,
+                autoPlay: true,
+                playsInline: true,
+                preload: "auto",
                 loop: true,
                 crossOrigin: "anonymous",
                 onError: ()=>{
@@ -1514,7 +1517,7 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
                     type: "audio/mpeg"
                 }, void 0, false, {
                     fileName: "[project]/src/components/MusicPlayer.tsx",
-                    lineNumber: 201,
+                    lineNumber: 204,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
@@ -1530,7 +1533,7 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
                         children: "No supported audio source found."
                     }, void 0, false, {
                         fileName: "[project]/src/components/MusicPlayer.tsx",
-                        lineNumber: 206,
+                        lineNumber: 209,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1538,7 +1541,7 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
                         children: "Put an MP3/OGG/WAV file in the public/music folder and set `audioUrl` to its path (e.g. /music/your-song.mp3)."
                     }, void 0, false, {
                         fileName: "[project]/src/components/MusicPlayer.tsx",
-                        lineNumber: 207,
+                        lineNumber: 210,
                         columnNumber: 11
                     }, this),
                     lastCheckedUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1552,7 +1555,7 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/MusicPlayer.tsx",
-                        lineNumber: 209,
+                        lineNumber: 212,
                         columnNumber: 13
                     }, this),
                     lastErrorMessage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1563,13 +1566,13 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/MusicPlayer.tsx",
-                        lineNumber: 212,
+                        lineNumber: 215,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/MusicPlayer.tsx",
-                lineNumber: 205,
+                lineNumber: 208,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1612,31 +1615,31 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
                                         className: "w-0.5 h-4 bg-dusty-rose animate-pulse"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/MusicPlayer.tsx",
-                                        lineNumber: 238,
+                                        lineNumber: 241,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "w-0.5 h-3 bg-dusty-rose animate-pulse delay-100"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/MusicPlayer.tsx",
-                                        lineNumber: 239,
+                                        lineNumber: 242,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/MusicPlayer.tsx",
-                                lineNumber: 237,
+                                lineNumber: 240,
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiMusic"], {
                                 className: "w-5 h-5"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/MusicPlayer.tsx",
-                                lineNumber: 242,
+                                lineNumber: 245,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/MusicPlayer.tsx",
-                            lineNumber: 229,
+                            lineNumber: 232,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -1653,18 +1656,18 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
                                 className: "w-4 h-4"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/MusicPlayer.tsx",
-                                lineNumber: 255,
+                                lineNumber: 258,
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiVolume2"], {
                                 className: "w-4 h-4"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/MusicPlayer.tsx",
-                                lineNumber: 257,
+                                lineNumber: 260,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/MusicPlayer.tsx",
-                            lineNumber: 247,
+                            lineNumber: 250,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1680,12 +1683,12 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
                                 title: "Volume"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/MusicPlayer.tsx",
-                                lineNumber: 263,
+                                lineNumber: 266,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/MusicPlayer.tsx",
-                            lineNumber: 262,
+                            lineNumber: 265,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1701,24 +1704,24 @@ function MusicPlayer({ audioUrl = '/music/bg music.mp3', title = 'Ambient Music'
                             children: title
                         }, void 0, false, {
                             fileName: "[project]/src/components/MusicPlayer.tsx",
-                            lineNumber: 276,
+                            lineNumber: 279,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/MusicPlayer.tsx",
-                    lineNumber: 223,
+                    lineNumber: 226,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/MusicPlayer.tsx",
-                lineNumber: 217,
+                lineNumber: 220,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true);
 }
-_s(MusicPlayer, "mWkif0szDK3REpyAMs6g9TIZl8o=");
+_s(MusicPlayer, "VSxgJKpcV7xBGEiSdVjaiUtFy6I=");
 _c = MusicPlayer;
 var _c;
 __turbopack_context__.k.register(_c, "MusicPlayer");
@@ -1769,8 +1772,8 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$MemoriesSection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                title: "Our Beautiful Moments",
-                subtitle: "A collection of memories that matter"
+                title: "From you and i to us",
+                subtitle: "Memories we'll remember forever"
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
                 lineNumber: 26,

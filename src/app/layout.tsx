@@ -15,11 +15,16 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: 'Happy Birthday | A Special Gift For You',
-  description: 'An elegant and personalized birthday gift experience',
-  viewport: 'width=device-width, initial-scale=1',
-  themeColor: '#F8F5F0',
+  title: 'Happy Birthday Nica Sayang',
+  description: 'A Birthday gift for beloved Nica',
 };
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+};
+
+export const themeColor = '#F8F5F0';
 
 export default function RootLayout({
   children,

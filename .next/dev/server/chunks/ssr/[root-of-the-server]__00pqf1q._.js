@@ -72,8 +72,8 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$l
 ;
 ;
 const metadata = {
-    title: 'Happy Birthday | A Special Gift For You',
-    description: 'An elegant and personalized birthday gift experience',
+    title: 'Happy Birthday Nica Sayang',
+    description: 'A Birthday gift for beloved Nica',
     viewport: 'width=device-width, initial-scale=1',
     themeColor: '#F8F5F0'
 };
