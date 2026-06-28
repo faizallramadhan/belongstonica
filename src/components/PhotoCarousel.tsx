@@ -35,8 +35,6 @@ export default function PhotoCarousel({
   }
 
   const currentPhoto = photos[currentIndex];
-  const nextIndex = (currentIndex + 1) % photos.length;
-  const prevIndex = (currentIndex - 1 + photos.length) % photos.length;
 
   const goToSlide = useCallback((index: number) => {
     setCurrentIndex(index % photos.length);

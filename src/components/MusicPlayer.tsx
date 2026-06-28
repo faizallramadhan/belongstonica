@@ -125,14 +125,6 @@ export default function MusicPlayer({
     }
   }, [resolvedUrl]);
 
-  const getMimeType = (url: string | null) => {
-    if (!url) return 'audio/mpeg';
-    if (/\.mp3$/i.test(url)) return 'audio/mpeg';
-    if (/\.ogg$/i.test(url)) return 'audio/ogg';
-    if (/\.wav$/i.test(url)) return 'audio/wav';
-    return 'audio/mpeg';
-  };
-
   useEffect(() => {
     // Update audio volume and muted state when state changes
     if (audioRef.current) {

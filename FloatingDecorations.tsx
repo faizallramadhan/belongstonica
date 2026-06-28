@@ -1,7 +1,5 @@
 'use client';
 
-import * as React from 'react';
-
 export default function FloatingDecorations() {
   const decorations = [
     { id: 1, emoji: '✨', top: '10%', left: '5%', delay: 0 },
@@ -63,15 +61,6 @@ export default function FloatingDecorations() {
           50% { opacity: 0.7; }
           100% { opacity: 0.3; }
         }
-        @keyframes orb2 {
-          0% { transform: translate(0,0); }
-          50% { transform: translate(-50px,-30px); }
-          100% { transform: translate(0,0); }
-        }
-      `}</style>
-    </div>
-  );
-}
         @keyframes orb2 {
           0% { transform: translate(0,0); }
           50% { transform: translate(-50px,-30px); }
