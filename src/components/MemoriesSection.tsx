@@ -19,28 +19,28 @@ interface MemoriesSectionProps {
 const sampleMemories: Memory[] = [
   {
     id: '1',
-    image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1000&h=600&fit=crop',
-    caption: 'Our First Adventure',
-    story: 'Remember that sunny afternoon when we decided to explore the hidden café downtown? Your smile that day is something I\'ll never forget.',
+    image: 'images/1.jpeg',
+    caption: '',
+    story: '',
   },
   {
     id: '2',
-    image: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1000&h=600&fit=crop',
-    caption: 'Celebrating Together',
-    story: 'Every moment with you feels like a celebration. Your laughter is the best gift I could ever receive.',
+    image: 'images/2.jpeg',
+    caption: '',
+    story: '',
   },
   {
     id: '3',
-    image: 'https://images.unsplash.com/photo-1464207687429-7505649dae38?w=1000&h=600&fit=crop',
-    caption: 'Quiet Moments',
-    story: 'These simple, quiet moments together mean more than you know. In the stillness, I find everything.',
+    image: 'images/3.jpeg',
+    caption: '',
+    story: '',
   },
-  {
-    id: '4',
-    image: 'https://images.unsplash.com/photo-1469022563149-aa64dbd37dda?w=1000&h=600&fit=crop',
-    caption: 'Golden Hours',
-    story: 'The way the light catches your face during sunset reminds me why every day with you is precious.',
-  },
+  // {
+  //   id: '4',
+  //   image: 'https://images.unsplash.com/photo-1469022563149-aa64dbd37dda?w=1000&h=600&fit=crop',
+  //   caption: 'Golden Hours',
+  //   story: 'The way the light catches your face during sunset reminds me why every day with you is precious.',
+  // },
 ];
 
 export default function MemoriesSection({

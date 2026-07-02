@@ -23,7 +23,7 @@ export default function Home() {
       />
 
       <MemoriesSection
-        title="From you and i to us"
+        title="Me, and my dearest Nca"
         subtitle="Memories we'll remember forever"
       />
 
@@ -34,7 +34,19 @@ export default function Home() {
       /> */}
 
       <ClosingSection
-        message="This birthday marks another year of growth, joy, and beautiful moments. I hope your day is filled with everything that makes you smile."
+        message={`Our relationship has never been easy. The distance that once stood between us was already hard enough, and now it feels like there's an even higher wall for me to climb.
+
+From the very beginning, we've come from two completely different worlds. You were born whole and beautiful beneath the moonlight, while I was born from storms—loud, restless, and full of chaos.
+But there's one thing I need you to know: I love you. More than I've ever loved myself. And yet, I've learned that love alone isn't always enough.
+
+If one day it turns out that I'm not the person your family can accept, or the one who truly deserves to stand beside you, I hope you'll still find the happiness you deserve. Because that's all I've ever wanted for you.
+
+Happy Birthday, dearest.
+
+I'm so grateful you came into my life.
+
+As you grow another year older, I hope life gives you everything you've ever wanted and everything you'll ever need.
+This birthday marks another year of growth, joy, and beautiful moments. I hope your day is filled with everything that makes you smile, and me...`}
         signOff="With all my love,"
         fromName="fai ✦"
       />

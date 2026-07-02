@@ -1,0 +1,437 @@
+﻿{
+  "framework": {
+    "name": "Other",
+    "slug": null
+  },
+  "basePath": "D:\\Code\\belongstonica",
+  "fileCount": 39,
+  "totalSize": 3653057,
+  "ignoredCount": 6,
+  "ignored": [
+    ".env.local",
+    ".git",
+    ".gitignore",
+    ".next",
+    ".vercel",
+    "node_modules"
+  ],
+  "directories": [
+    {
+      "path": "public",
+      "fileCount": 3,
+      "size": 3431065
+    },
+    {
+      "path": "package-lock.json",
+      "fileCount": 1,
+      "size": 76357
+    },
+    {
+      "path": "src",
+      "fileCount": 13,
+      "size": 49508
+    },
+    {
+      "path": "motion-dom-11.18.1.tgz",
+      "fileCount": 1,
+      "size": 23595
+    },
+    {
+      "path": "COMPONENT_REFERENCE.md",
+      "fileCount": 1,
+      "size": 9935
+    },
+    {
+      "path": "mnt",
+      "fileCount": 2,
+      "size": 9927
+    },
+    {
+      "path": "PROJECT_SUMMARY.md",
+      "fileCount": 1,
+      "size": 9106
+    },
+    {
+      "path": "SETUP.md",
+      "fileCount": 1,
+      "size": 8918
+    },
+    {
+      "path": "CUSTOMIZATION.md",
+      "fileCount": 1,
+      "size": 8646
+    },
+    {
+      "path": "README.md",
+      "fileCount": 1,
+      "size": 8603
+    },
+    {
+      "path": "DEPLOYMENT.md",
+      "fileCount": 1,
+      "size": 5120
+    },
+    {
+      "path": "QUICKSTART.md",
+      "fileCount": 1,
+      "size": 3765
+    },
+    {
+      "path": "FloatingDecorations.tsx",
+      "fileCount": 1,
+      "size": 2673
+    },
+    {
+      "path": "tailwind.config.ts",
+      "fileCount": 1,
+      "size": 1853
+    },
+    {
+      "path": "tsconfig.json",
+      "fileCount": 1,
+      "size": 1374
+    },
+    {
+      "path": "useScrollAnimation.ts",
+      "fileCount": 1,
+      "size": 955
+    },
+    {
+      "path": "package.json",
+      "fileCount": 1,
+      "size": 775
+    },
+    {
+      "path": "next-env.d.ts",
+      "fileCount": 1,
+      "size": 253
+    },
+    {
+      "path": "next.config.ts",
+      "fileCount": 1,
+      "size": 244
+    },
+    {
+      "path": "next.config.js",
+      "fileCount": 1,
+      "size": 234
+    },
+    {
+      "path": "postcss.config.js",
+      "fileCount": 1,
+      "size": 83
+    },
+    {
+      "path": ".gitattributes",
+      "fileCount": 1,
+      "size": 66
+    },
+    {
+      "path": "vercel.json",
+      "fileCount": 1,
+      "size": 2
+    },
+    {
+      "path": "dry.json",
+      "fileCount": 1,
+      "size": 0
+    }
+  ],
+  "largestFiles": [
+    {
+      "path": "public/music/bg music.mp3",
+      "size": 3431049,
+      "mode": 33206,
+      "sha": "87f81c3d714a3f00558ebba3efb8bfa118ea2c5f"
+    },
+    {
+      "path": "package-lock.json",
+      "size": 76357,
+      "mode": 33206,
+      "sha": "1a94c457215d620cd731d1fd9596ffbdd1eb2f9f"
+    },
+    {
+      "path": "motion-dom-11.18.1.tgz",
+      "size": 23595,
+      "mode": 33206,
+      "sha": "e7fed7b7dc6ae1223ef1cce29ee54bec826dc3f2"
+    },
+    {
+      "path": "COMPONENT_REFERENCE.md",
+      "size": 9935,
+      "mode": 33206,
+      "sha": "ffc33dd27fbb5105a0c9837b3f15af0c12933e95"
+    },
+    {
+      "path": "src/components/MusicPlayer.tsx",
+      "size": 9455,
+      "mode": 33206,
+      "sha": "f6c8b838dea47571eb6e790c003fb9fca9504673"
+    },
+    {
+      "path": "PROJECT_SUMMARY.md",
+      "size": 9106,
+      "mode": 33206,
+      "sha": "2d0ccc596b82f884f9b25dafb7ee0504253264d0"
+    },
+    {
+      "path": "SETUP.md",
+      "size": 8918,
+      "mode": 33206,
+      "sha": "f5dfc090410f62b6d562ecbdda7a96d441794f51"
+    },
+    {
+      "path": "CUSTOMIZATION.md",
+      "size": 8646,
+      "mode": 33206,
+      "sha": "0818e459b546cb5dadcc8e2b31fd0f71f8bf509f"
+    },
+    {
+      "path": "README.md",
+      "size": 8603,
+      "mode": 33206,
+      "sha": "b326726f2f47349c216754544cd207e1a684e6e7"
+    },
+    {
+      "path": "src/components/HeroSection.tsx",
+      "size": 6713,
+      "mode": 33206,
+      "sha": "e6de20e1f13cf9bc7cfb51eaad4624e65cbf99fb"
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 66,
+      "mode": 33206,
+      "sha": "ba3dfe345280bdcc5e817bb02cf49b8b8d8e1c4c"
+    },
+    {
+      "path": "COMPONENT_REFERENCE.md",
+      "size": 9935,
+      "mode": 33206,
+      "sha": "ffc33dd27fbb5105a0c9837b3f15af0c12933e95"
+    },
+    {
+      "path": "CUSTOMIZATION.md",
+      "size": 8646,
+      "mode": 33206,
+      "sha": "0818e459b546cb5dadcc8e2b31fd0f71f8bf509f"
+    },
+    {
+      "path": "DEPLOYMENT.md",
+      "size": 5120,
+      "mode": 33206,
+      "sha": "3f383d085f66a5a832abbf35ad32c298b8246625"
+    },
+    {
+      "path": "dry.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "FloatingDecorations.tsx",
+      "size": 2673,
+      "mode": 33206,
+      "sha": "fe670efa4a43daa4ebafed76cf65a80109231b2e"
+    },
+    {
+      "path": "mnt/user-data/outputs/src/components/sections/HeroSection.tsx",
+      "size": 3757,
+      "mode": 33206,
+      "sha": "41165b76d77a3ec7ae2470649aeffa9d82c5b18f"
+    },
+    {
+      "path": "mnt/user-data/outputs/src/components/sections/PhotoCarousel.tsx",
+      "size": 6170,
+      "mode": 33206,
+      "sha": "ed724e4eb9efd3fa7a99ac71b57b00d918074a7d"
+    },
+    {
+      "path": "motion-dom-11.18.1.tgz",
+      "size": 23595,
+      "mode": 33206,
+      "sha": "e7fed7b7dc6ae1223ef1cce29ee54bec826dc3f2"
+    },
+    {
+      "path": "next-env.d.ts",
+      "size": 253,
+      "mode": 33206,
+      "sha": "7d1f870fce9d7a4537f204641c81d815abebd45b"
+    },
+    {
+      "path": "next.config.js",
+      "size": 234,
+      "mode": 33206,
+      "sha": "bf1c18576d95eb957ac36f4ce8c56918b3f2c09f"
+    },
+    {
+      "path": "next.config.ts",
+      "size": 244,
+      "mode": 33206,
+      "sha": "9a58511460b79071cef43986126543c0b4cfd47e"
+    },
+    {
+      "path": "package-lock.json",
+      "size": 76357,
+      "mode": 33206,
+      "sha": "1a94c457215d620cd731d1fd9596ffbdd1eb2f9f"
+    },
+    {
+      "path": "package.json",
+      "size": 775,
+      "mode": 33206,
+      "sha": "c4263dec7ee5784027761824980e828c67ba2ed1"
+    },
+    {
+      "path": "postcss.config.js",
+      "size": 83,
+      "mode": 33206,
+      "sha": "81781ed39dc8e6d6521ae1d63a67e46894acc2eb"
+    },
+    {
+      "path": "PROJECT_SUMMARY.md",
+      "size": 9106,
+      "mode": 33206,
+      "sha": "2d0ccc596b82f884f9b25dafb7ee0504253264d0"
+    },
+    {
+      "path": "public/images",
+      "size": 0,
+      "mode": 16822
+    },
+    {
+      "path": "public/music/bg music.mp3",
+      "size": 3431049,
+      "mode": 33206,
+      "sha": "87f81c3d714a3f00558ebba3efb8bfa118ea2c5f"
+    },
+    {
+      "path": "public/music/index.json",
+      "size": 16,
+      "mode": 33206,
+      "sha": "94b02627a2287c617b3a73bb7689d85c41587e32"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "size": 3765,
+      "mode": 33206,
+      "sha": "08c85619f2205b370542962a65adb5cfece0b4e6"
+    },
+    {
+      "path": "README.md",
+      "size": 8603,
+      "mode": 33206,
+      "sha": "b326726f2f47349c216754544cd207e1a684e6e7"
+    },
+    {
+      "path": "SETUP.md",
+      "size": 8918,
+      "mode": 33206,
+      "sha": "f5dfc090410f62b6d562ecbdda7a96d441794f51"
+    },
+    {
+      "path": "src/app/globals.css",
+      "size": 2686,
+      "mode": 33206,
+      "sha": "df86d11c1087399b53ab2266d41d19f4d039976e"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "size": 900,
+      "mode": 33206,
+      "sha": "7f13ae86b2e18941c70f9cc8872c610458ff0e00"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "size": 1526,
+      "mode": 33206,
+      "sha": "2c3dd29130098a52aec4a6d756c122221dae9fc5"
+    },
+    {
+      "path": "src/components/ClosingSection.tsx",
+      "size": 3359,
+      "mode": 33206,
+      "sha": "b1ecc767edd5447bf0dff857e7d82324aff3e449"
+    },
+    {
+      "path": "src/components/FloatingDecorations.tsx",
+      "size": 2157,
+      "mode": 33206,
+      "sha": "cce3348c8a273db958b3c6d0f0287dd3b5e1a3fd"
+    },
+    {
+      "path": "src/components/GiftSection.tsx",
+      "size": 5327,
+      "mode": 33206,
+      "sha": "4f15c2b776b2dcb061a79a3b82f4f4c6dccbcc13"
+    },
+    {
+      "path": "src/components/HeroSection.tsx",
+      "size": 6713,
+      "mode": 33206,
+      "sha": "e6de20e1f13cf9bc7cfb51eaad4624e65cbf99fb"
+    },
+    {
+      "path": "src/components/MemoriesSection.tsx",
+      "size": 4071,
+      "mode": 33206,
+      "sha": "3e8356818f23f824b3c53c831329bdf36a988708"
+    },
+    {
+      "path": "src/components/MessageSection.tsx",
+      "size": 4344,
+      "mode": 33206,
+      "sha": "325666eee44068d58ccf9e5eb5f943cc973eb45b"
+    },
+    {
+      "path": "src/components/MusicPlayer.tsx",
+      "size": 9455,
+      "mode": 33206,
+      "sha": "f6c8b838dea47571eb6e790c003fb9fca9504673"
+    },
+    {
+      "path": "src/components/ParticleBackground.tsx",
+      "size": 3231,
+      "mode": 33206,
+      "sha": "3f24a9efc1f966da83a58ea10b6f2771e36fdab7"
+    },
+    {
+      "path": "src/components/PhotoCarousel.tsx",
+      "size": 5172,
+      "mode": 33206,
+      "sha": "98a3aa88ccad8f2add04373b41d739750494d28a"
+    },
+    {
+      "path": "src/types/index.ts",
+      "size": 567,
+      "mode": 33206,
+      "sha": "be9dcde293321bd42a27057cf589b90719a09137"
+    },
+    {
+      "path": "tailwind.config.ts",
+      "size": 1853,
+      "mode": 33206,
+      "sha": "af4e0a575f545d939f4566e783e77a9f2264a6f0"
+    },
+    {
+      "path": "tsconfig.json",
+      "size": 1374,
+      "mode": 33206,
+      "sha": "6356a1c1c59e07bd4d3b06dd5b1da9e97ff5de1d"
+    },
+    {
+      "path": "useScrollAnimation.ts",
+      "size": 955,
+      "mode": 33206,
+      "sha": "f471687421c845be6288ae8849e606cd3c5627d8"
+    },
+    {
+      "path": "vercel.json",
+      "size": 2,
+      "mode": 33206,
+      "sha": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+    }
+  ]
+}

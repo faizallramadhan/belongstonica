@@ -60,12 +60,12 @@ export default function ClosingSection({
         </motion.div>
 
         {/* Main message */}
-        <motion.h2
+        <motion.p
           variants={itemVariants}
-          className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold mb-8 text-dark leading-relaxed"
+          className="text-base sm:text-lg lg:text-xl font-serif font-medium mb-8 text-dark leading-8 text-left whitespace-pre-line max-w-3xl mx-auto"
         >
           {message}
-        </motion.h2>
+        </motion.p>
 
         {/* Divider */}
         <motion.div
